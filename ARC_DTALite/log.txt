@@ -1,0 +1,1460 @@
+_____________
+Step 1: Reading input data
+_____________
+Step 1.1: Reading section [demand_period] in setting.csv...
+cumulative profile ratio at slot  56 = 0.0625
+cumulative profile ratio at slot  57 = 0.125
+cumulative profile ratio at slot  58 = 0.1875
+cumulative profile ratio at slot  59 = 0.25
+cumulative profile ratio at slot  60 = 0.3125
+cumulative profile ratio at slot  61 = 0.375
+cumulative profile ratio at slot  62 = 0.4375
+cumulative profile ratio at slot  63 = 0.5
+cumulative profile ratio at slot  64 = 0.5625
+cumulative profile ratio at slot  65 = 0.625
+cumulative profile ratio at slot  66 = 0.6875
+cumulative profile ratio at slot  67 = 0.75
+cumulative profile ratio at slot  68 = 0.8125
+cumulative profile ratio at slot  69 = 0.875
+cumulative profile ratio at slot  70 = 0.9375
+cumulative profile ratio at slot  71 = 1
+final cumulative profile ratio1
+number of demand periods = 1
+Step 1.2: Reading section [link_type] in setting.csv...
+important: traffic_flow_code on link type 0 is 0
+important: traffic_flow_code on link type 1 is 0
+important: traffic_flow_code on link type 2 is 0
+important: traffic_flow_code on link type 3 is 0
+important: traffic_flow_code on link type 4 is 0
+important: traffic_flow_code on link type 5 is 0
+important: traffic_flow_code on link type 6 is 0
+important: traffic_flow_code on link type 7 is 0
+important: traffic_flow_code on link type 8 is 0
+important: traffic_flow_code on link type 9 is 0
+important: traffic_flow_code on link type 10 is 0
+important: traffic_flow_code on link type 11 is 0
+important: traffic_flow_code on link type 12 is 0
+important: traffic_flow_code on link type 13 is 0
+important: traffic_flow_code on link type 14 is 0
+important: traffic_flow_code on link type 15 is 0
+important: traffic_flow_code on link type 16 is 0
+number of link types = 18
+Step 1.3: Reading section [agent_type] in setting.csv...
+number of agent typess = 2
+Step 1.4: Reading node data in node.csv...
+reading 5000 nodes.. 
+reading 10000 nodes.. 
+reading 15000 nodes.. 
+reading 20000 nodes.. 
+number of nodes = 22401
+number of zones = 3361
+number of info zones = 0
+Step QEM mode for creating node 2 zone mapping
+Step 1.4.2: Grid Resolution 0.2
+Step 1.5: Initializing O-D zone vector...
+adding 0info zones 
+number of zones = 3361
+Step 1.6: Reading link data in link.csv... 
+reading 10000 links.. 
+reading 20000 links.. 
+reading 30000 links.. 
+reading 40000 links.. 
+reading 50000 links.. 
+number of links = 53908
+number of links =60630
+Step 2.0: Reading scenario data...
+Step 1.8: Reading file section [demand_file_list] in setting.csv...
+Error: from_node_id in file timing.csv is not defined.
+number of timing records = 0
+
+allocating 4D memory for 0 zones
+allocating 4D memory for 1000 zones
+allocating 4D memory for 2000 zones
+allocating 4D memory for 3000 zones
+
+Step 1.8: Reading file section [demand_file_list] in setting.csv...
+
+VIODP  o,d,volume,geometry
+o_zone_id:101, d_zone_id: 101, value = 113
+o_zone_id:101, d_zone_id: 132, value = 1
+o_zone_id:101, d_zone_id: 133, value = 0.333333
+o_zone_id:101, d_zone_id: 135, value = 0.333333
+o_zone_id:101, d_zone_id: 199, value = 0.666667
+o_zone_id:101, d_zone_id: 206, value = 0.333333
+total demand volume is 2.37033e+06
+crtical demand volume has 99769 OD pairs in size,1.37924e+06, , account for 58.1875%%
+crtical OD zones volume has 99769 OD pairs in size,1.37924e+06, , account for 58.1875%%
+There are  0 zones with positive demand
+Step 2: Assigning computing tasks to memory blocks...
+There are 16 SP networks in memory.
+There are 0 RTSP networks in memory.
+There are 5756 zones to be computed in CPU.
+
+Step 3: Column Generation for Traffic Assignment...
+Total Column Generation iteration: 20
+
+Current iteration number:0
+Current CPU time: 0.004 s
+label correcting for zone 0 in processor 0
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 291 in processor 3
+label correcting for zone 388 in processor 4
+label correcting for zone 485 in processor 5
+label correcting for zone 582 in processor 6
+label correcting for zone 776 in processor 0
+label correcting for zone 679 in processor 7
+label correcting for zone 873 in processor 1
+label correcting for zone 970 in processor 2
+label correcting for zone 1067 in processor 3
+label correcting for zone 1164 in processor 4
+label correcting for zone 1261 in processor 5
+label correcting for zone 1358 in processor 6
+label correcting for zone 1455 in processor 7
+label correcting for zone 1746 in processor 2
+label correcting for zone 1843 in processor 3
+label correcting for zone 2037 in processor 5
+label correcting for zone 1940 in processor 4
+label correcting for zone 2328 in processor 0
+label correcting for zone 2231 in processor 7
+label correcting for zone 2522 in processor 2
+label correcting for zone 2813 in processor 5
+label correcting for zone 2716 in processor 4
+label correcting for zone 3104 in processor 0
+label correcting for zone 2910 in processor 6
+label correcting for zone 3007 in processor 7
+label correcting for zone 3201 in processor 1
+label correcting for zone 3298 in processor 2
+label correcting for zone 0 in processor 0
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 291 in processor 3
+label correcting for zone 388 in processor 4
+label correcting for zone 485 in processor 5
+label correcting for zone 776 in processor 0
+label correcting for zone 582 in processor 6
+label correcting for zone 970 in processor 2
+label correcting for zone 873 in processor 1
+label correcting for zone 1067 in processor 3
+label correcting for zone 679 in processor 7
+label correcting for zone 1261 in processor 5
+label correcting for zone 1164 in processor 4
+label correcting for zone 1358 in processor 6
+label correcting for zone 1746 in processor 2
+label correcting for zone 1455 in processor 7
+label correcting for zone 1843 in processor 3
+label correcting for zone 2037 in processor 5
+label correcting for zone 1940 in processor 4
+label correcting for zone 2328 in processor 0
+label correcting for zone 2522 in processor 2
+label correcting for zone 2231 in processor 7
+label correcting for zone 2813 in processor 5
+label correcting for zone 3104 in processor 0
+label correcting for zone 2716 in processor 4
+label correcting for zone 2910 in processor 6
+label correcting for zone 3201 in processor 1
+label correcting for zone 3298 in processor 2
+label correcting for zone 3007 in processor 7
+iteration: 0,systemTT: 0, least system TT:2.41303e+07,gap=-1
+
+Current iteration number:1
+Current CPU time: 16.228 s
+label correcting for zone 0 in processor 0
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 291 in processor 3
+label correcting for zone 485 in processor 5
+label correcting for zone 388 in processor 4
+label correcting for zone 582 in processor 6
+label correcting for zone 776 in processor 0
+label correcting for zone 679 in processor 7
+label correcting for zone 970 in processor 2
+label correcting for zone 873 in processor 1
+label correcting for zone 1067 in processor 3
+label correcting for zone 1261 in processor 5
+label correcting for zone 1164 in processor 4
+label correcting for zone 1358 in processor 6
+label correcting for zone 1455 in processor 7
+label correcting for zone 1746 in processor 2
+label correcting for zone 1843 in processor 3
+label correcting for zone 2037 in processor 5
+label correcting for zone 1940 in processor 4
+label correcting for zone 2328 in processor 0
+label correcting for zone 2231 in processor 7
+label correcting for zone 2522 in processor 2
+label correcting for zone 2813 in processor 5
+label correcting for zone 2716 in processor 4
+label correcting for zone 3104 in processor 0
+label correcting for zone 2910 in processor 6
+label correcting for zone 3201 in processor 1
+label correcting for zone 3298 in processor 2
+label correcting for zone 3007 in processor 7
+label correcting for zone 0 in processor 0
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 291 in processor 3
+label correcting for zone 485 in processor 5
+label correcting for zone 388 in processor 4
+label correcting for zone 776 in processor 0
+label correcting for zone 582 in processor 6
+label correcting for zone 970 in processor 2
+label correcting for zone 873 in processor 1
+label correcting for zone 1067 in processor 3
+label correcting for zone 1261 in processor 5
+label correcting for zone 679 in processor 7
+label correcting for zone 1164 in processor 4
+label correcting for zone 1358 in processor 6
+label correcting for zone 1746 in processor 2
+label correcting for zone 1455 in processor 7
+label correcting for zone 1843 in processor 3
+label correcting for zone 2037 in processor 5
+label correcting for zone 1940 in processor 4
+label correcting for zone 2328 in processor 0
+label correcting for zone 2522 in processor 2
+label correcting for zone 2231 in processor 7
+label correcting for zone 2813 in processor 5
+label correcting for zone 3104 in processor 0
+label correcting for zone 2716 in processor 4
+label correcting for zone 3201 in processor 1
+label correcting for zone 2910 in processor 6
+label correcting for zone 3298 in processor 2
+label correcting for zone 3007 in processor 7
+iteration: 1,systemTT: 0, least system TT:2.41303e+07,gap=-1
+
+Current iteration number:2
+Current CPU time: 33.512 s
+label correcting for zone 0 in processor 0
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 291 in processor 3
+label correcting for zone 388 in processor 4
+label correcting for zone 485 in processor 5
+label correcting for zone 582 in processor 6
+label correcting for zone 679 in processor 7
+label correcting for zone 776 in processor 0
+label correcting for zone 873 in processor 1
+label correcting for zone 970 in processor 2
+label correcting for zone 1067 in processor 3
+label correcting for zone 1164 in processor 4
+label correcting for zone 1261 in processor 5
+label correcting for zone 1358 in processor 6
+label correcting for zone 1455 in processor 7
+label correcting for zone 1746 in processor 2
+label correcting for zone 1843 in processor 3
+label correcting for zone 2037 in processor 5
+label correcting for zone 1940 in processor 4
+label correcting for zone 2231 in processor 7
+label correcting for zone 2328 in processor 0
+label correcting for zone 2522 in processor 2
+label correcting for zone 2813 in processor 5
+label correcting for zone 2716 in processor 4
+label correcting for zone 3104 in processor 0
+label correcting for zone 2910 in processor 6
+label correcting for zone 3007 in processor 7
+label correcting for zone 3201 in processor 1
+label correcting for zone 0 in processor 0
+label correcting for zone 3298 in processor 2
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 485 in processor 5
+label correcting for zone 291 in processor 3
+label correcting for zone 388 in processor 4
+label corlabel correcting for zone 582 in processor recting for zone 6776 in processor 
+0
+label correcting for zone 873 in processor 1
+label correcting for zone 679 in processor 7
+label correcting for zone 970 in processor 2
+label correcting for zone 1261 in processor 5
+label correcting for zone 1067 in processor 3
+label correcting for zone 1164 in processor 4
+label correcting for zone 1358 in processor 6
+label correcting for zone 1455 in processor 7
+label correcting for zone 1746 in processor 2
+label correcting for zone 2037 in processor 5
+label correcting for zone 1843 in processor 3
+label correcting for zone 1940 in processor 4
+label correcting for zone 2328 in processor 0
+label correcting for zone 2231 in processor 7
+label correcting for zone 2522 in processor 2
+label correcting for zone 2813 in processor 5
+label correcting for zone 2716 in processor 4
+label correcting for zone 3104 in processor 0
+label correcting for zone 2910 in processor 6
+label correcting for zone 3201 in processor 1
+label correcting for zone 3007 in processor 7
+label correcting for zone 3298 in processor 2
+iteration: 2,systemTT: 1.11903e+08, least system TT:2.80283e+07,gap=2.99251
+
+Current iteration number:3
+Current CPU time: 52.375 s
+label correcting for zone 0 in processor 0
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 291 in processor 3
+label correcting for zone 388 in processor 4
+label correcting for zone 485 in processor 5
+label correcting for zone 582 in processor 6
+label correcting for zone 679 in processor 7
+label correcting for zone 776 in processor 0
+label correcting for zone 873 in processor 1
+label correcting for zone 970 in processor 2
+label correcting for zone 1067 in processor 3
+label correcting for zone 1164 in processor 4
+label correcting for zone 1261 in processor 5
+label correcting for zone 1358 in processor 6
+label correcting for zone 1455 in processor 7
+label correcting for zone 1746 in processor 2
+label correcting for zone 1843 in processor 3
+label correcting for zone 2037 in processor 5
+label correcting for zone 1940 in processor 4
+label correcting for zone 2231 in processor 7
+label correcting for zone 2328 in processor 0
+label correcting for zone 2522 in processor 2
+label correcting for zone 2813 in processor 5
+label correcting for zone 2716 in processor 4
+label correcting for zone 3104 in processor 0
+label correcting for zone 2910 in processor 6
+label correcting for zone 3201 in processor 1
+label correcting for zone 3007 in processor 7
+label correcting for zone 0 in processor 0
+label correcting for zone 3298 in processor 2
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 485 in processor 5
+label correcting for zone 291 in processor 3
+label correcting for zone 388 in processor 4
+label correcting for zone 776 in processor 0
+label correcting for zone 582 in processor 6
+label correcting for zone 873 in processor 1
+label correcting for zone 679 in processor 7
+label correcting for zone 970 in processor 2
+label correcting for zone 1261 in processor 5
+label correcting for zone 1067 in processor 3
+label correcting for zone 1164 in processor 4
+label correcting for zone 1358 in processor 6
+label correcting for zone 1455 in processor 7
+label correcting for zone 1746 in processor 2
+label correcting for zone 2037 in processor 5
+label correcting for zone 1843 in processor 3
+label correcting for zone 1940 in processor 4
+label correcting for zone 2328 in processor 0
+label correcting for zone 2231 in processor 7
+label correcting for zone 2522 in processor 2
+label correcting for zone 2813 in processor 5
+label correcting for zone 2716 in processor 4
+label correcting for zone 3104 in processor 0
+label correcting for zone 2910 in processor 6
+label correcting for zone 3201 in processor 1
+label correcting for zone 3007 in processor 7
+label correcting for zone 3298 in processor 2
+iteration: 3,systemTT: 1.11903e+08, least system TT:2.80283e+07,gap=2.99251
+
+Current iteration number:4
+Current CPU time: 69.364 s
+label correcting for zone 0 in processor 0
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 291 in processor 3
+label correcting for zone 388 in processor 4
+label correcting for zone 485 in processor 5
+label correcting for zone 582 in processor 6
+label correcting for zone 679 in processor 7
+label correcting for zone 776 in processor 0
+label correcting for zone 873 in processor 1
+label correcting for zone 970 in processor 2
+label correcting for zone 1067 in processor 3
+label correcting for zone 1164 in processor 4
+label correcting for zone 1261 in processor 5
+label correcting for zone 1358 in processor 6
+label correcting for zone 1455 in processor 7
+label correcting for zone 1746 in processor 2
+label correcting for zone 1843 in processor 3
+label correcting for zone 2037 in processor 5
+label correcting for zone 1940 in processor 4
+label correcting for zone 2231 in processor 7
+label correcting for zone 2328 in processor 0
+label correcting for zone 2522 in processor 2
+label correcting for zone 2813 in processor 5
+label correcting for zone 2716 in processor 4
+label correcting for zone 2910 in processor 6
+label correcting for zone 3104 in processor 0
+label correcting for zone 3007 in processor 7
+label correcting for zone 3201 in processor 1
+label correcting for zone 0 in processor 0
+label correcting for zone 3298 in processor 2
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 291 in processor 3
+label correcting for zone 485 in processor 5
+label correcting for zone 388 in processor 4
+label correcting for zone 776 in processor 0
+label correcting for zone 582 in processor 6
+label correcting for zone 679 in processor 7
+label correcting for zone 873 in processor 1
+label correcting for zone 970 in processor 2
+label correcting for zone 1261 in processor 5
+label correcting for zone 1067 in processor 3
+label correcting for zone 1164 in processor 4
+label correcting for zone 1358 in processor 6
+label correcting for zone 1455 in processor 7
+label correcting for zone 1746 in processor 2
+label correcting for zone 2037 in processor 5
+label correcting for zone 1843 in processor 3
+label correcting for zone 1940 in processor 4
+label correcting for zone 2328 in processor 0
+label correcting for zone 2231 in processor 7
+label correcting for zone 2522 in processor 2
+label correcting for zone 2813 in processor 5
+label correcting for zone 2716 in processor 4
+label correcting for zone 3104 in processor 0
+label correcting for zone 2910 in processor 6
+label correcting for zone 3007 in processor 7
+label correcting for zone 3201 in processor 1
+label correcting for zone 3298 in processor 2
+iteration: 4,systemTT: 4.52152e+07, least system TT:2.80442e+07,gap=0.612283
+
+Current iteration number:5
+Current CPU time: 86.126 s
+label correcting for zone 0 in processor 0
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 291 in processor 3
+label correcting for zone 388 in processor 4
+label correcting for zone 582 in processor 6
+label correcting for zone 485 in processor 5
+label correcting for zone 679 in processor 7
+label correcting for zone 776 in processor 0
+label correcting for zone 873 in processor 1
+label correcting for zone 970 in processor 2
+label correcting for zone 1067 in processor 3
+label correcting for zone 1164 in processor 4
+label correcting for zone 1261 in processor 5
+label correcting for zone 1358 in processor 6
+label correcting for zone 1455 in processor 7
+label correcting for zone 1746 in processor 2
+label correcting for zone 1843 in processor 3
+label correcting for zone 2037 in processor 5
+label correcting for zone 1940 in processor 4
+label correcting for zone 2231 in processor 7
+label correcting for zone 2328 in processor 0
+label correcting for zone 2522 in processor 2
+label correcting for zone 2813 in processor 5
+label correcting for zone 2716 in processor 4
+label correcting for zone 2910 in processor 6
+label correcting for zone 3104 in processor 0
+label correcting for zone 3007 in processor 7
+label correcting for zone 3201 in processor 1
+label correcting for zone 0 in processor 0
+label correcting for zone 3298 in processor 2
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 485 in processor 5
+label correcting for zone 291 in processor 3
+label correcting for zone 388 in processor 4
+label correcting for zone 776 in processor 0
+label correcting for zone 582 in processor 6
+label correcting for zone 679 in processor 7
+label correcting for zone 873 in processor 1
+label correcting for zone 970 in processor 2
+label correcting for zone 1261 in processor 5
+label correcting for zone 1067 in processor 3
+label correcting for zone 1164 in processor 4
+label correcting for zone 1358 in processor 6
+label correcting for zone 1455 in processor 7
+label correcting for zone 1746 in processor 2
+label correcting for zone 2037 in processor 5
+label correcting for zone 1843 in processor 3
+label correcting for zone 1940 in processor 4
+label correcting for zone 2328 in processor 0
+label correcting for zone 2231 in processor 7
+label correcting for zone 2813 in processor 5
+label correcting for zone 2522 in processor 2
+label correcting for zone 2716 in processor 4
+label correcting for zone 3104 in processor 0
+label correcting for zone 3007 in processor 7
+label correcting for zone 2910 in processor 6
+label correcting for zone 3201 in processor 1
+label correcting for zone 3298 in processor 2
+iteration: 5,systemTT: 4.09389e+07, least system TT:2.75044e+07,gap=0.488448
+
+Current iteration number:6
+Current CPU time: 109.926 s
+label correcting for zone 0 in processor 0
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 291 in processor 3
+label correcting for zone 388 in processor 4
+label correcting for zone 485 in processor 5
+label correcting for zone 582 in processor 6
+label correcting for zone 679 in processor 7
+label correcting for zone 776 in processor 0
+label correcting for zone 873 in processor 1
+label correcting for zone 970 in processor 2
+label correcting for zone 1067 in processor 3
+label correcting for zone 1261 in processor 5
+label correcting for zone 1164 in processor 4
+label correcting for zone 1358 in processor 6
+label correcting for zone 1455 in processor 7
+label correcting for zone 1746 in processor 2
+label correcting for zone 1843 in processor 3
+label correcting for zone 2037 in processor 5
+label correcting for zone 1940 in processor 4
+label correcting for zone 2231 in processor 7
+label correcting for zone 2328 in processor 0
+label correcting for zone 2522 in processor 2
+label correcting for zone 2813 in processor 5
+label correcting for zone 2716 in processor 4
+label correcting for zone 2910 in processor 6
+label correcting for zone 3104 in processor 0
+label correcting for zone 3007 in processor 7
+label correcting for zone 3201 in processor 1
+label correcting for zone 3298 in processor 2
+label correcting for zone 0 in processor 0
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 485 in processor 5
+label correcting for zone 291 in processor 3
+label correcting for zone 388 in processor 4
+label correcting for zone 582 in processor 6
+label correcting for zone 776 in processor 0
+label correcting for zone 679 in processor 7
+label correcting for zone 873 in processor 1
+label correcting for zone 970 in processor 2
+label correcting for zone 1261 in processor 5
+label correcting for zone 1067 in processor 3
+label correcting for zone 1164 in processor 4
+label correcting for zone 1358 in processor 6
+label correcting for zone 1455 in processor 7
+label correcting for zone 1746 in processor 2
+label correcting for zone 2037 in processor 5
+label correcting for zone 1843 in processor 3
+label correcting for zone 1940 in processor 4
+label correcting for zone 2328 in processor 0
+label correcting for zone 2231 in processor 7
+label correcting for zone 2813 in processor 5
+label correcting for zone 2522 in processor 2
+label correcting for zone 2716 in processor 4
+label correcting for zone 3104 in processor 0
+label correcting for zone 2910 in processor 6
+label correcting for zone 3201 in processor 1
+label correcting for zone 3007 in processor 7
+label correcting for zone 3298 in processor 2
+iteration: 6,systemTT: 3.31823e+07, least system TT:2.7659e+07,gap=0.199694
+
+Current iteration number:7
+Current CPU time: 127.039 s
+label correcting for zone 0 in processor 0
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 291 in processor 3
+label correcting for zone 388 in processor 4
+label correcting for zone 485 in processor 5
+label correcting for zone 582 in processor 6
+label correcting for zone 679 in processor 7
+label correcting for zone 776 in processor 0
+label correcting for zone 873 in processor 1
+label correcting for zone 970 in processor 2
+label correcting for zone 1067 in processor 3
+label correcting for zone 1164 in processor 4
+label correcting for zone 1261 in processor 5
+label correcting for zone 1358 in processor 6
+label correcting for zone 1455 in processor 7
+label correcting for zone 1746 in processor 2
+label correcting for zone 2037 in processor 5
+label correcting for zone 1843 in processor 3
+label correcting for zone 1940 in processor 4
+label correcting for zone 2328 in processor 0
+label correcting for zone 2231 in processor 7
+label correcting for zone 2522 in processor 2
+label correcting for zone 2813 in processor 5
+label correcting for zone 2716 in processor 4
+label correcting for zone 3104 in processor 0
+label correcting for zone 2910 in processor 6
+label correcting for zone 3007 in processor 7
+label correcting for zone 3201 in processor 1
+label correcting for zone 0 in processor 0
+label correcting for zone 3298 in processor 2
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 485 in processor 5
+label correcting for zone 291 in processor 3
+label correcting for zone 776 in processor 0
+label correcting for zone label correcting for zone 388582 in processor  in processor 46
+
+label correcting for zone 873 in processor 1
+label correcting for zone 679 in processor 7
+label correcting for zone 970 in processor 2
+label correcting for zone 1261 in processor 5
+label correcting for zone 1067 in processor 3
+label correcting for zone 1164 in processor 4
+label correcting for zone 1358 in processor 6
+label correcting for zone 1455 in processor 7
+label correcting for zone 1746 in processor 2
+label correcting for zone 2037 in processor 5
+label correcting for zone 1843 in processor 3
+label correcting for zone 1940 in processor 4
+label correcting for zone 2328 in processor 0
+label correcting for zone 2231 in processor 7
+label correcting for zone 2813 in processor 5
+label correcting for zone 2522 in processor 2
+label correcting for zone 3104 in processor 0
+label correcting for zone 2716 in processor 4
+label correcting for zone 3201 in processor 1
+label correcting for zone 2910 in processor 6
+label correcting for zone 3007 in processor 7
+label correcting for zone 3298 in processor 2
+iteration: 7,systemTT: 3.19865e+07, least system TT:2.78564e+07,gap=0.148264
+
+Current iteration number:8
+Current CPU time: 149.972 s
+label correcting for zone 0 in processor 0
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 291 in processor 3
+label correcting for zone 388 in processor 4
+label correcting for zone 485 in processor 5
+label correcting for zone 582 in processor 6
+label correcting for zone 679 in processor 7
+label correcting for zone 776 in processor 0
+label correcting for zone 873 in processor 1
+label correcting for zone 970 in processor 2
+label correcting for zone 1067 in processor 3
+label correcting for zone 1164 in processor 4
+label correcting for zone 1261 in processor 5
+label correcting for zone 1358 in processor 6
+label correcting for zone 1455 in processor 7
+label correcting for zone 1746 in processor 2
+label correcting for zone 1843 in processor 3
+label correcting for zone 2037 in processor 5
+label correcting for zone 1940 in processor 4
+label correcting for zone 2231 in processor 7
+label correcting for zone 2328 in processor 0
+label correcting for zone 2522 in processor 2
+label correcting for zone 2813 in processor 5
+label correcting for zone 2716 in processor 4
+label correcting for zone 2910 in processor 6
+label correcting for zone 3104 in processor 0
+label correcting for zone 3201 in processor 1
+label correcting for zone 3007 in processor 7
+label correcting for zone 3298 in processor 2
+label correcting for zone 0 in processor 0
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 291 in processor 3
+label correcting for zone 485 in processor 5
+label correcting for zone 582 in processor 6
+label correcting for zone 388 in processor 4
+label correcting for zone 776 in processor 0
+label correcting for zone 873 in processor 1
+label correcting for zone 970 in processor 2
+label correcting for zone 679 in processor 7
+label correcting for zone 1261 in processor 5
+label correcting for zone 1067 in processor 3
+label correcting for zone 1358 in processor 6
+label correcting for zone 1164 in processor 4
+label correcting for zone 1746 in processor 2
+label correcting for zone 1455 in processor 7
+label correcting for zone 1843 in processor 3
+label correcting for zone 2037 in processor 5
+label correcting for zone 1940 in processor 4
+label correcting for zone 2328 in processor 0
+label correcting for zone 2231 in processor 7
+label correcting for zone 2522 in processor 2
+label correcting for zone 2813 in processor 5
+label correcting for zone 2716 in processor 4
+label correcting for zone 3104 in processor 0
+label correcting for zone 2910 in processor 6
+label correcting for zone 3201 in processor 1
+label correcting for zone 3298 in processor 2
+label correcting for zone 3007 in processor 7
+iteration: 8,systemTT: 3.08582e+07, least system TT:2.80176e+07,gap=0.101384
+
+Current iteration number:9
+Current CPU time: 168.921 s
+label correcting for zone 0 in processor 0
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 291 in processor 3
+label correcting for zone 388 in processor 4
+label correcting for zone 485 in processor 5
+label correcting for zone 582 in processor 6
+label correcting for zone 679 in processor 7
+label correcting for zone 776 in processor 0
+label correcting for zone 873 in processor 1
+label correcting for zone 970 in processor 2
+label correcting for zone 1067 in processor 3
+label correcting for zone 1261 in processor 5
+label correcting for zone 1164 in processor 4
+label correcting for zone 1358 in processor 6
+label correcting for zone 1455 in processor 7
+label correcting for zone 1746 in processor 2
+label correcting for zone 1843 in processor 3
+label correcting for zone 2037 in processor 5
+label correcting for zone 1940 in processor 4
+label correcting for zone 2231 in processor 7
+label correcting for zone 2328 in processor 0
+label correcting for zone 2522 in processor 2
+label correcting for zone 2813 in processor 5
+label correcting for zone 2716 in processor 4
+label correcting for zone 2910 in processor 6
+label correcting for zone 3104 in processor 0
+label correcting for zone 3201 in processor 1
+label correcting for zone 3007 in processor 7
+label correcting for zone 3298 in processor 2
+label correcting for zone 0 in processor 0
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 485 in processor 5
+label correcting for zone 291 in processor 3
+label correcting for zone 388 in processor 4
+label correcting for zone 582 in processor 6
+label correcting for zone 776 in processor 0
+label correcting for zone 873 in processor 1
+label correcting for zone 970 in processor 2
+label correcting for zone 679 in processor 7
+label correcting for zone 1261 in processor 5
+label correcting for zone 1067 in processor 3
+label correcting for zone 1164 in processor 4
+label correcting for zone 1358 in processor 6
+label correcting for zone 1746 in processor 2
+label correcting for zone 1455 in processor 7
+label correcting for zone 2037 in processor 5
+label correcting for zone 1843 in processor 3
+label correcting for zone 1940 in processor 4
+label correcting for zone 2328 in processor 0
+label correcting for zone 2231 in processor 7
+label correcting for zone 2522 in processor 2
+label correcting for zone 2813 in processor 5
+label correcting for zone 2716 in processor 4
+label correcting for zone 3104 in processor 0
+label correcting for zone 2910 in processor 6
+label correcting for zone 3201 in processor 1
+label correcting for zone 3298 in processor 2
+label correcting for zone 3007 in processor 7
+iteration: 9,systemTT: 3.01832e+07, least system TT:2.80816e+07,gap=0.0748402
+
+Current iteration number:10
+Current CPU time: 187.663 s
+label correcting for zone 0 in processor 0
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 291 in processor 3
+label correcting for zone 388 in processor 4
+label correcting for zone 485 in processor 5
+label correcting for zone 582 in processor 6
+label correcting for zone 679 in processor 7
+label correcting for zone 776 in processor 0
+label correcting for zone 873 in processor 1
+label correcting for zone 970 in processor 2
+label correcting for zone 1067 in processor 3
+label correcting for zone 1164 in processor 4
+label correcting for zone 1261 in processor 5
+label correcting for zone 1358 in processor 6
+label correcting for zone 1455 in processor 7
+label correcting for zone 1746 in processor 2
+label correcting for zone 1843 in processor 3
+label correcting for zone 2037 in processor 5
+label correcting for zone 1940 in processor 4
+label correcting for zone label correcting for zone 23282231 in processor  in processor 0
+7
+label correcting for zone 2522 in processor 2
+label correcting for zone 2813 in processor 5
+label correcting for zone 2716 in processor 4
+label correcting for zone 2910 in processor 6
+label correcting for zone 3104 in processor 0
+label correcting for zone 3007 in processor 7
+label correcting for zone 3201 in processor 1
+label correcting for zone 0 in processor 0
+label correcting for zone 3298 in processor 2
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 291 in processor 3
+label correcting for zone 485 in processor 5
+label correcting for zone 388 in processor 4
+label correcting for zone 776 in processor 0
+label correcting for zone 582 in processor 6
+label correcting for zone 873 in processor 1
+label correcting for zone 679 in processor 7
+label correcting for zone 970 in processor 2
+label correcting for zone 1067 in processor 3
+label correcting for zone 1261 in processor 5
+label correcting for zone 1164 in processor 4
+label correcting for zone 1358 in processor 6
+label correcting for zone 1455 in processor 7
+label correcting for zone 1746 in processor 2
+label correcting for zone 2037 in processor 5
+label correcting for zone 1843 in processor 3
+label correcting for zone 1940 in processor 4
+label correcting for zone 2328 in processor 0
+label correcting for zone 2231 in processor 7
+label correcting for zone 2522 in processor 2
+label correcting for zone 2813 in processor 5
+label correcting for zone 2716 in processor 4
+label correcting for zone 3104 in processor 0
+label correcting for zone 2910 in processor 6
+label correcting for zone 3201 in processor 1
+label correcting for zone 3298 in processor 2
+label correcting for zone 3007 in processor 7
+iteration: 10,systemTT: 2.94836e+07, least system TT:2.81093e+07,gap=0.0488929
+
+Current iteration number:11
+Current CPU time: 209.02 s
+label correcting for zone 0 in processor 0
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 291 in processor 3
+label correcting for zone 388 in processor 4
+label correcting for zone 582 in processor 6
+label correcting for zone 485 in processor 5
+label correcting for zone label correcting for zone 679776 in processor  in processor 07
+
+label correcting for zone 873 in processor 1
+label correcting for zone 970 in processor 2
+label correcting for zone 1067 in processor 3
+label correcting for zone 1164 in processor 4
+label correcting for zone 1358 in processor 6
+label correcting for zone 1261 in processor 5
+label correcting for zone 1455 in processor 7
+label correcting for zone 1746 in processor 2
+label correcting for zone 1843 in processor 3
+label correcting for zone 1940 in processor 4
+label correcting for zone 2037 in processor 5
+label correcting for zone 2328 in processor 0
+label correcting for zone 2231 in processor 7
+label correcting for zone 2522 in processor 2
+label correcting for zone 2813 in processor 5
+label correcting for zone 2716 in processor 4
+label correcting for zone 2910 in processor 6
+label correcting for zone 3104 in processor 0
+label correcting for zone 3201 in processor 1
+label correcting for zone 3298 in processor 2
+label correcting for zone 0 in processor 0
+label correcting for zone 3007 in processor 7
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 291 in processor 3
+label correcting for zone 582 in processor 6
+label correcting for zone 776 in processor 0
+label correcting for zone 485 in processor 5
+label correcting for zone 388 in processor 4
+label correcting for zone 873 in processor 1
+label correcting for zone 970 in processor 2
+label correcting for zone 1067 in processor 3
+label correcting for zone 679 in processor 7
+label correcting for zone 1261 in processor 5
+label correcting for zone 1164 in processor 4
+label correcting for zone 1358 in processor 6
+label correcting for zone 1746 in processor 2
+label correcting for zone 1455 in processor 7
+label correcting for zone 1843 in processor 3
+label correcting for zone 2037 in processor 5
+label correcting for zone 1940 in processor 4
+label correcting for zone 2328 in processor 0
+label correcting for zone 2522 in processor 2
+label correcting for zone 2231 in processor 7
+label correcting for zone 2813 in processor 5
+label correcting for zone 3104 in processor 0
+label correcting for zone 2910 in processor 6
+label correcting for zone 2716 in processor 4
+label correcting for zone 3201 in processor 1
+label correcting for zone 3298 in processor 2
+label correcting for zone 3007 in processor 7
+iteration: 11,systemTT: 2.90847e+07, least system TT:2.81413e+07,gap=0.0335248
+
+Current iteration number:12
+Current CPU time: 231.112 s
+label correcting for zone 0 in processor 0
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 291 in processor 3
+label correcting for zone 388 in processor 4
+label correcting for zone 485 in processor 5
+label correcting for zone 582 in processor 6
+label correcting for zone 776 in processor 0
+label correcting for zone 679 in processor 7
+label correcting for zone 873 in processor 1
+label correcting for zone 970 in processor 2
+label correcting for zone 1164 in processor 4
+label correcting for zone 1067 in processor 3
+label correcting for zone 1261 in processor 5
+label correcting for zone 1358 in processor 6
+label correcting for zone 1455 in processor 7
+label correcting for zone 1746 in processor 2
+label correcting for zone 2037 in processor 5
+label correcting for zone 1940 in processor 4
+label correcting for zone 1843 in processor 3
+label correcting for zone 2231 in processor 7
+label correcting for zone 2328 in processor 0
+label correcting for zone 2522 in processor 2
+label correcting for zone 2813 in processor 5
+label correcting for zone 2716 in processor 4
+label correcting for zone 2910 in processor 6
+label correcting for zone 3104 in processor 0
+label correcting for zone 3007 in processor 7
+label correcting for zone 3201 in processor 1
+label correcting for zone 0 in processor 0
+label correcting for zone 3298 in processor 2
+label correcting for zone 97 in processor 1
+label correcting for zone 485 in processor 5
+label correcting for zone 194 in processor 2
+label correcting for zone 388 in processor 4
+label correcting for zone 291 in processor 3
+label correcting for zone 582 in processor 6
+label correcting for zone 776 in processor 0
+label correcting for zone 873 in processor 1
+label correcting for zone 679 in processor 7
+label correcting for zone 970 in processor 2
+label correcting for zone 1261 in processor 5
+label correcting for zone 1164 in processor 4
+label correcting for zone 1067 in processor 3
+label correcting for zone 1358 in processor 6
+label correcting for zone 1455 in processor 7
+lablabel correcting for zone el correcting for zone 20371746 in processor  in processor 52
+
+label correcting for zone 1940 in processor 4
+label correcting for zone 1843 in processor 3
+label correcting for zone 2328 in processor 0
+label correcting for zone 2231 in processor 7
+label correcting for zone 2813 in processor 5
+label correcting for zone 2522 in processor 2
+label correcting for zone 2716 in processor 4
+label correcting for zone 3104 in processor 0
+label correcting for zone 2910 in processor 6
+label correcting for zone 3201 in processor 1
+label correcting for zone 3007 in processor 7
+label correcting for zone 3298 in processor 2
+iteration: 12,systemTT: 2.88888e+07, least system TT:2.81448e+07,gap=0.0264356
+
+Current iteration number:13
+Current CPU time: 252.122 s
+label correcting for zone 0 in processor 0
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 291 in processor 3
+label correcting for zone 388 in processor 4
+label correcting for zone 485 in processor 5
+label correcting for zone 582 in processor 6
+label correcting for zone 679 in processor 7
+label correcting for zone 776 in processor 0
+label correcting for zone 873 in processor 1
+label correcting for zone 970 in processor 2
+label correcting for zone 1067 in processor 3
+label correcting for zone 1164 in processor 4
+label correcting for zone 1261 in processor 5
+label correcting for zone 1358 in processor 6
+label correcting for zone 1455 in processor 7
+label correcting for zone 1746 in processor 2
+label correcting for zone 1843 in processor 3
+label correcting for zone 2037 in processor 5
+label correcting for zone 1940 in processor 4
+label correcting for zone 2231 in processor 7
+label correcting for zone 2328 in processor 0
+label correcting for zone 2522 in processor 2
+label correcting for zone 2813 in processor 5
+label correcting for zone 2716 in processor 4
+label correcting for zone 2910 in processor 6
+label correcting for zone 3104 in processor 0
+label correcting for zone 3007 in processor 7
+label correcting for zone 3201 in processor 1
+label correcting for zone 3298 in processor 2
+label correcting for zone 0 in processor 0
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 291 in processor 3
+label correcting for zone 485 in processor 5
+label correcting for zone 388 in processor 4
+label correcting for zone 582 in processor 6
+label correcting for zone 776 in processor 0
+label correcting for zone 970 in processor 2
+label correcting for zone 679 in processor 7
+label correcting for zone 873 in processor 1
+label correcting for zone 1067 in processor 3
+label correcting for zone 1261 in processor 5
+label correcting for zone 1164 in processor 4
+label correcting for zone 1358 in processor 6
+label correcting for zone 1746 in processor 2
+label correcting for zone 1455 in processor 7
+label correcting for zone 1843 in processor 3
+label correcting for zone 2037 in processor 5
+label correcting for zone 1940 in processor 4
+label correcting for zone 2328 in processor 0
+label correcting for zone 2231 in processor 7
+label correcting for zone 2522 in processor 2
+label correcting for zone 2813 in processor 5
+label correcting for zone 2716 in processor 4
+label correcting for zone 3104 in processor 0
+label correcting for zone 2910 in processor 6
+label correcting for zone 3201 in processor 1
+label correcting for zone 3298 in processor 2
+label correcting for zone 3007 in processor 7
+iteration: 13,systemTT: 2.87599e+07, least system TT:2.81553e+07,gap=0.021476
+
+Current iteration number:14
+Current CPU time: 272.277 s
+label correcting for zone 0 in processor 0
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 291 in processor 3
+label correcting for zone 388 in processor 4
+label correcting for zone 582 in processor 6
+label correcting for zone 485 in processor 5
+label correcting for zone label correcting for zone 679776 in processor  7in processor 0
+
+label correcting for zone 873 in processor 1
+label correcting for zone 970 in processor 2
+label correcting for zone 1067 in processor 3
+label correcting for zone 1164 in processor 4
+label correcting for zone 1261 in processor 5
+label correcting for zone 1358 in processor 6
+label correcting for zone 1455 in processor 7
+label correcting for zone 1746 in processor 2
+label correcting for zone 1843 in processor 3
+label correcting for zone 2037 in processor 5
+label correcting for zone 1940 in processor 4
+label correcting for zone 2231 in processor 7
+label correcting for zone 2328 in processor 0
+label correcting for zone 2522 in processor 2
+label correcting for zone 2813 in processor 5
+label correcting for zone 2716 in processor 4
+label correcting for zone 2910 in processor 6
+label correcting for zone 3104 in processor 0
+label correcting for zone 3007 in processor 7
+label correcting for zone 3201 in processor 1
+label correcting for zone 0 in processor 0
+label correcting for zone 3298 in processor 2
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 291 in processor 3
+label correcting for zone 485 in processor 5
+label correcting for zone 776 in processor 0
+label correcting for zone 388 in processor 4
+label correcting for zone 582 in processor 6
+label correcting for zone 873 in processor 1
+label correcting for zone 679 in processor 7
+label correcting for zone 970 in processor 2
+label correcting for zone 1067 in processor 3
+label correcting for zone 1261 in processor 5
+label correcting for zone 1164 in processor 4
+label correcting for zone 1358 in processor 6
+label correcting for zone 1455 in processor 7
+label correcting for zone 1746 in processor 2
+label correcting for zone 1843 in processor 3
+label correcting for zone 2037 in processor 5
+label correcting for zone 2328 in processor 0
+label correcting for zone 1940 in processor 4
+label correcting for zone 2231 in processor 7
+label correcting for zone 2522 in processor 2
+label correcting for zone 2813 in processor 5
+label correcting for zone 3104 in processor 0
+label correcting for zone 2716 in processor 4
+label correcting for zone 3201 in processor 1
+label correcting for zone 2910 in processor 6
+label correcting for zone 3298 in processor 2
+label correcting for zone 3007 in processor 7
+iteration: 14,systemTT: 2.86468e+07, least system TT:2.81766e+07,gap=0.0166889
+
+Current iteration number:15
+Current CPU time: 294.116 s
+label correcting for zone 0 in processor 0
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 291 in processor 3
+label correcting for zone 485 in processor 5
+label correcting for zone 388 in processor 4
+label correcting for zone 582 in processor 6
+label correcting for zone 776 in processor 0
+label correcting for zone 679 in processor 7
+label correcting for zone 873 in processor 1
+label correcting for zone 970 in processor 2
+label correcting for zone 1067 in processor 3
+label correcting for zone 1261 in processor 5
+label correcting for zone 1164 in processor 4
+label correcting for zone 1358 in processor 6
+label correcting for zone 1455 in processor 7
+label correcting for zone 1746 in processor 2
+label correcting for zone 1843 in processor 3
+label correcting for zone 2037 in processor 5
+label correcting for zone 1940 in processor 4
+label correcting for zone 2328 in processor 0
+label correcting for zone 2231 in processor 7
+label correcting for zone 2522 in processor 2
+label correcting for zone 2813 in processor 5
+label correcting for zone 2716 in processor 4
+label correcting for zone 3104 in processor 0
+label correcting for zone 2910 in processor 6
+label correcting for zone 3201 in processor 1
+label correcting for zone 0 in processor 0
+label correcting for zone 3007 in processor 7
+label correcting for zone 3298 in processor 2
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 291 in processor 3
+label correcting for zone 485 in processor 5
+label correcting for zone 776 in processor 0
+label correcting for zone 388 in processor 4
+label correcting for zone 582 in processor 6
+label correcting for zone 873 in processor 1
+label correcting for zone 970 in processor 2
+label correcting for zone 1261 in processor 5
+label correcting for zone 1067 in processor 3
+label correcting for zone 679 in processor 7
+label correcting for zone 1164 in processor 4
+label correcting for zone 1358 in processor 6
+label correcting for zone 1746 in processor 2
+label correcting for zone 1455 in processor 7
+label correcting for zone 2037 in processor 5
+label correcting for zone 1843 in processor 3
+label correcting for zone 2328 in processor 0
+label correcting for zone 1940 in processor 4
+label correcting for zone 2231 in processor 7
+label correcting for zone 2813 in processor 5
+label correcting for zone 2522 in processor 2
+label correcting for zone 3104 in processor 0
+label correcting for zone 2716 in processor 4
+label correcting for zone 3201 in processor 1
+label correcting for zone 2910 in processor 6
+label correcting for zone 3298 in processor 2
+label correcting for zone 3007 in processor 7
+iteration: 15,systemTT: 2.85906e+07, least system TT:2.81894e+07,gap=0.0142322
+
+Current iteration number:16
+Current CPU time: 315.699 s
+label correcting for zone 0 in processor 0
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 291 in processor 3
+label correcting for zone 388 in processor 4
+label correcting for zone 485 in processor 5
+label correcting for zone 582 in processor 6
+label correcting for zone 679 in processor 7
+label correcting for zone 776 in processor 0
+label correcting for zone 873 in processor 1
+label correcting for zone 970 in processor 2
+label correcting for zone 1067 in processor 3
+label correcting for zone 1164 in processor 4
+label correcting for zone 1261 in processor 5
+label correcting for zone 1358 in processor 6
+label correcting for zone 1455 in processor 7
+label correcting for zone 1746 in processor 2
+label correcting for zone 2037 in processor 5
+label correcting for zone 1843 in processor 3
+label correcting for zone 1940 in processor 4
+label correcting for zone 2231 in processor 7
+label correcting for zone 2328 in processor 0
+label correcting for zone 2522 in processor 2
+label correcting for zone 2813 in processor 5
+label correcting for zone 2716 in processor 4
+label correcting for zone 3104 in processor 0
+label correcting for zone 3007 in processor 7
+label correcting for zone 2910 in processor 6
+label correcting for zone 3201 in processor 1
+label correcting for zone 3298 in processor 2
+label correcting for zone 0 in processor 0
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 485 in processor 5
+label correcting for zone 291 in processor 3
+label correcting for zone 388 in processor 4
+label correcting for zone 776 in processor 0
+label correcting for zone 582 in processor 6
+label correcting for zone 679 in processor 7
+label correcting for zone 873 in processor 1
+label correcting for zone 970 in processor 2
+label correcting for zone 1261 in processor 5
+label correcting for zone 1164 in processor 4
+label correcting for zone 1067 in processor 3
+label correcting for zone 1358 in processor 6
+label correcting for zone 1455 in processor 7
+label correcting for zone 1746 in processor 2
+label correcting for zone 2037 in processor 5
+label correcting for zone 1843 in processor 3
+label correcting for zone 1940 in processor 4
+label correcting for zone 2328 in processor 0
+label correcting for zone 2231 in processor 7
+label correcting for zone 2813 in processor 5
+label correcting for zone 2522 in processor 2
+label correcting for zone 2716 in processor 4
+label correcting for zone 3104 in processor 0
+label correcting for zone 3201 in processor 1
+label correcting for zone 3007 in processor 7
+label correcting for zone 3298 in processor 2
+label correcting for zone 2910 in processor 6
+iteration: 16,systemTT: 2.85527e+07, least system TT:2.81998e+07,gap=0.0125149
+
+Current iteration number:17
+Current CPU time: 338.683 s
+label correcting for zone 0 in processor 0
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 291 in processor 3
+label correcting for zone 388 in processor 4
+label correcting for zone 485 in processor 5
+label correcting for zone 582 in processor 6
+label correcting for zone 776 in processor 0
+label correcting for zone 679 in processor 7
+label correcting for zone 873 in processor 1
+label correcting for zone 970 in processor 2
+label correcting for zone 1067 in processor 3
+label correcting for zone 1164 in processor 4
+label correcting for zone 1261 in processor 5
+label correcting for zone 1358 in processor 6
+label correcting for zone 1455 in processor 7
+label correcting for zone 1746 in processor 2
+label correcting for zone 2037 in processor 5
+label correcting for zone 1843 in processor 3
+label correcting for zone 1940 in processor 4
+label correcting for zone 2328 in processor 0
+label correcting for zone 2231 in processor 7
+label correcting for zone 2522 in processor 2
+label correcting for zone 2813 in processor 5
+label correcting for zone 2716 in processor 4
+label correcting for zone 3104 in processor 0
+label correcting for zone 2910 in processor 6
+label correcting for zone 3201 in processor 1
+label correcting for zone 3007 in processor 7
+label correcting for zone 0 in processor 0
+label correcting for zone 3298 in processor 2
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 485 in processor 5
+label correcting for zone 291 in processor 3
+label correcting for zone 388 in processor 4
+label correcting for zone 776 in processor 0
+label correcting for zone 582 in processor 6
+label correcting for zone 873 in processor 1
+label correcting for zone 970 in processor 2
+label correcting for zone 679 in processor 7
+label correcting for zone 1261 in processor 5
+label correcting for zone 1067 in processor 3
+label correcting for zone 1164 in processor 4
+label correcting for zone 1358 in processor 6
+label correcting for zone 1746 in processor 2
+label correcting for zone 1455 in processor 7
+label correcting for zone 2037 in processor 5
+label correcting for zone 1843 in processor 3
+label correcting for zone 1940 in processor 4
+label correcting for zone 2328 in processor 0
+label correcting for zone 2522 in processor 2
+label correcting for zone 2231 in processor 7
+label correcting for zone 2813 in processor 5
+label correcting for zone 3104 in processor 0
+label correcting for zone 2716 in processor 4
+label correcting for zone 2910 in processor 6
+label correcting for zone 3201 in processor 1
+label correcting for zone 3298 in processor 2
+label correcting for zone 3007 in processor 7
+iteration: 17,systemTT: 2.85321e+07, least system TT:2.82076e+07,gap=0.0115064
+
+Current iteration number:18
+Current CPU time: 363.247 s
+label correcting for zone 0 in processor 0
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 291 in processor 3
+label correcting for zone 388 in processor 4
+label correcting for zone 582 in processor 6
+label correcting for zone 485 in processor 5
+label correcting for zone 776 in processor 0
+label correcting for zone 679 in processor 7
+label correcting for zone 873 in processor 1
+label correcting for zone 970 in processor 2
+label correcting for zone 1067 in processor 3
+label correcting for zone 1164 in processor 4
+label correcting for zone 1261 in processor 5
+label correcting for zone 1358 in processor 6
+label correcting for zone 1455 in processor 7
+label correcting for zone 1746 in processor 2
+label correcting for zone 1843 in processor 3
+label correcting for zone 2037 in processor 5
+label correcting for zone 1940 in processor 4
+label correcting for zone 2328 in processor 0
+label correcting for zone 2231 in processor 7
+label correcting for zone 2522 in processor 2
+label correcting for zone 2813 in processor 5
+label correcting for zone 2716 in processor 4
+label correcting for zone 3104 in processor 0
+label correcting for zone 2910 in processor 6
+label correcting for zone 3201 in processor 1
+label correcting for zone 3007 in processor 7
+label correcting for zone 0 in processor 0
+label correcting for zone 3298 in processor 2
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 485 in processor 5
+label correcting for zone 291 in processor 3
+label correcting for zone 388 in processor 4
+label correcting for zone 776 in processor 0
+label correcting for zone 582 in processor 6
+label correcting for zone 873 in processor 1
+label correcting for zone 970 in processor 2
+label correcting for zone 679 in processor 7
+label correcting for zone 1261 in processor 5
+label correcting for zone 1067 in processor 3
+label correcting for zone 1164 in processor 4
+label correcting for zone 1358 in processor 6
+label correcting for zone 1455 in processor 7
+label correcting for zone 1746 in processor 2
+label correcting for zone 2037 in processor 5
+label correcting for zone 1843 in processor 3
+label correcting for zone 1940 in processor 4
+label correcting for zone 2328 in processor 0
+label correcting for zone 2231 in processor 7
+label correcting for zone 2813 in processor 5
+label correcting for zone 2522 in processor 2
+label correcting for zone 3104 in processor 0
+label correcting for zone 2716 in processor 4
+label correcting for zone 2910 in processor 6
+label correcting for zone 3201 in processor 1
+label correcting for zone 3298 in processor 2
+label correcting for zone 3007 in processor 7
+iteration: 18,systemTT: 2.85161e+07, least system TT:2.81959e+07,gap=0.0113587
+
+Current iteration number:19
+Current CPU time: 384.702 s
+label correcting for zone 0 in processor 0
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 291 in processor 3
+label correcting for zone 388 in processor 4
+label correcting for zone 485 in processor 5
+label correcting for zone 582 in processor 6
+label correcting for zone 679 in processor 7
+label correcting for zone 776 in processor 0
+label correcting for zone 873 in processor 1
+label correcting for zone 970 in processor 2
+label correcting for zone label correcting for zone 10671164 in processor  in processor 34
+
+label correcting for zone 1261 in processor 5
+label correcting for zone 1358 in processor 6
+label correcting for zone 1455 in processor 7
+label correcting for zone 1746 in processor 2
+label correcting for zone 1843 in processor 3
+label correcting for zone 2037 in processor 5
+label correcting for zone 1940 in processor 4
+label correcting for zone 2231 in processor 7
+label correcting for zone 2328 in processor 0
+label correcting for zone 2522 in processor 2
+label correcting for zone 2813 in processor 5
+label correcting for zone 2716 in processor 4
+label correcting for zone 2910 in processor 6
+label correcting for zone 3104 in processor 0
+label correcting for zone 3007 in processor 7
+label correcting for zone 3201 in processor 1
+label correcting for zone 3298 in processor 2
+label correcting for zone 0 in processor 0
+label correcting for zone 97 in processor 1
+label correcting for zone 194 in processor 2
+label correcting for zone 485 in processor 5
+label correcting for zone 291 in processor 3
+label correcting for zone 388 in processor 4
+label correcting for zone 582 in processor 6
+label correcting for zone 776 in processor 0
+label correcting for zone 873 in processor 1
+label correcting for zone 970 in processor 2
+label correcting for zone 679 in processor 7
+label correcting for zone 1261 in processor 5
+label correcting for zone 1164 in processor 4
+label correcting for zone 1067 in processor 3
+label correcting for zone 1358 in processor 6
+label correcting for zone 1746 in processor 2
+label correcting for zone 1455 in processor 7
+label correcting for zone 2037 in processor 5
+label correcting for zone 1843 in processor 3
+label correcting for zone 1940 in processor 4
+label correcting for zone 2328 in processor 0
+label correcting for zone 2231 in processor 7
+label correcting for zone 2522 in processor 2
+label correcting for zone 2813 in processor 5
+label correcting for zone 2716 in processor 4
+label correcting for zone 3104 in processor 0
+label correcting for zone 3201 in processor 1
+label correcting for zone 3298 in processor 2
+label correcting for zone 2910 in processor 6
+label correcting for zone 3007 in processor 7
+iteration: 19,systemTT: 2.85034e+07, least system TT:2.81879e+07,gap=0.0111916
+
+Step 4: Column Pool Updating
+Total Column Pool Updating iteration: 0
+
+Done!
+CPU Running Time for column pool updating: 4.04 s
+Step 1.9: Reading file section [output_file_configuration] in setting.csv...
+writing link_performance.csv..
+writing TD_link_performance.csv..
+writing TD_link_performance.csv..
+writing agent.csv..
+writing data for 3361  zones 
+o zone id =  200
+o zone id =  300
+o zone id =  400
+o zone id =  500
+o zone id =  600
+o zone id =  700
+o zone id =  800
+o zone id =  900
+o zone id =  1000
+o zone id =  1100
+o zone id =  1200
+o zone id =  1300
+o zone id =  1400
+o zone id =  1500
+o zone id =  1600
+o zone id =  1700
+o zone id =  1800
+o zone id =  1900
+o zone id =  2000
+o zone id =  2100
+o zone id =  2200
+o zone id =  2300
+o zone id =  2400
+o zone id =  2500
+o zone id =  2600
+o zone id =  2700
+o zone id =  2800
+o zone id =  2900
+o zone id =  3000
+o zone id =  3100
+o zone id =  3200
+o zone id =  3300
+o zone id =  3400
+writing trajectory.csv..
+writing data for 3361  zones 
+o zone id =  200
+o zone id =  300
+o zone id =  400
+o zone id =  500
+o zone id =  600
+o zone id =  700
+o zone id =  800
+o zone id =  900
+o zone id =  1000
+o zone id =  1100
+o zone id =  1200
+o zone id =  1300
+o zone id =  1400
+o zone id =  1500
+o zone id =  1600
+o zone id =  1700
+o zone id =  1800
+o zone id =  1900
+o zone id =  2000
+o zone id =  2100
+o zone id =  2200
+o zone id =  2300
+o zone id =  2400
+o zone id =  2500
+o zone id =  2600
+o zone id =  2700
+o zone id =  2800
+o zone id =  2900
+o zone id =  3000
+o zone id =  3100
+o zone id =  3200
+o zone id =  3300
+o zone id =  3400
+writing trace.csv..
+writing data for 3361  zones 
+Output for assignment with 20 iterations. Traffic assignment completes!
+CPU Running Time for outputting simulation results: 8.935 s
+free memory..
+done.
